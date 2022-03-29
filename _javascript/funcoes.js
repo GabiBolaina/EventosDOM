@@ -5,6 +5,7 @@ a.style.background = 'Red'
         
 function entrar(){
 a.innerText = ('Mouse entrou na área!')
+a.style.background = 'yellow'
 };
         
 function sair(){
