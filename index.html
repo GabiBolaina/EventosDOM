@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head> 
+	<meta charset="UTF-8"/>
+	<title> Eventos DOM </title>	
+	<link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+</head>
+<script language="javascript" src="_javascript/funcoes.js"> </script> 
+<body>
+<div id="area">
+Interaja...
+</div>   
+<script>
+var a = window.document.getElementById("area")
+a.addEventListener('click', clicar)
+a.addEventListener('mouseenter', entrar)
+a.addEventListener('mouseout', sair)
+</script>
+</body>
+</html>
